@@ -3,9 +3,10 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
 		<title>World Clock by Wesley Hoplaros</title>
 		<link rel="stylesheet" href="src/style.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -16,7 +17,7 @@
 				<option value="">Nicosia</option>
 				<option value="">Dallas</option>
 			</select>
-			<div class="city">
+			<div class="city" id="los-angeles">
 				<div>
 					<h2>Los Angeles 🇺🇸</h2>
 					<div class="date">August 15 2024</div>
@@ -26,7 +27,7 @@
 				</div>
 			</div>
 
-			<div class="city">
+			<div class="city" id="sydney">
 				<div>
 					<h2>Sydney 🇦🇺</h2>
 					<div class="date">August 15 2024</div>
