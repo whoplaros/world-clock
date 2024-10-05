@@ -49,6 +49,7 @@ select {
 	font-size: 18px;
 	vertical-align: middle;
 	line-height: 36px;
+	margin-left: 4px;
 }
 footer {
 	text-align: center;
